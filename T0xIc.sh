@@ -28,14 +28,15 @@ figlet ToxIc
        "start crunch wordlist generator" \
        "start hydra brute forcer " \
        "start Pulse brute forcer (facebook,twitter,instagram)" \
+       "start msfvenom to generate backdoor" \
        "exit"
      do
        case $REPLY in
           1) airodump-ng wlan0  ;;
           2) aircrack-ng  ;;
           3) ./toxic.sh ;;
-          4) xerosploit.sh ;;
-          5) msfconsole.sh ;;
+          4) xerosploit ;;
+          5) msfconsole ;;
           6) fatrat ;;
           7) mitmf ;;
           8) ./i.sh ;;
@@ -46,7 +47,8 @@ figlet ToxIc
           13) crunch ;;
           14) hydra ;;
           15) ./pulse.sh ;;
-          16) echo "exit....."
+          16) msfvenom ;;
+          17) echo "exit....."
              break ;;
           *) echo "options not valid !!!" ;;
        esac
