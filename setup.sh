@@ -50,6 +50,7 @@ read -t 2
 clear
 mkdir tools
 cd tools/
+echo -e "\033[33m Installation du repo github"
 git clone https://github.com/Screetsec/TheFatRat
 mv TheFatRat TFR
 cd TFR/
