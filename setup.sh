@@ -1,6 +1,6 @@
 #/usr/bin/bash
 echo -e "\033[32m☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣"
-echo -e "\033[31m Welcome to The TOXIC-CRACKER By Davistar"
+echo -e "\033[31m Welcome to The TOXIC-FRAMEWORK By Davistar"
 echo -e "\033[32m☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣"
 read -t 2
 pacman -Syu
