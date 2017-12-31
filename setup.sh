@@ -4,6 +4,7 @@ echo -e "\033[31m Welcome to The TOXIC-CRACKER By Davistar"
 echo -e "\033[32m☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣"
 read -t 2
 pacman -Syu
+pacman -S figlet
 read -t 2
 clear
 echo -e "\033[33m☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣"
